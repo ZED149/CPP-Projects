@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_registration" xml:lang="en-US">
+<title>Registration Class Reference</title>
+<indexterm><primary>Registration</primary></indexterm>
+<para>
+<computeroutput>#include &lt;REGIST.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_registration_1aac811faf22fe96a7f657a282d6d679ab">Registration</link> ()</para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_class_registration_1a72a5cc800d9551d69e4c201cd9f07ccd">GetCredits</link> () const</para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_class_registration_1a729a2d6ae08aefd2dbe10ec7b3e5ce48">GetCount</link> () const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Friends    </title>
+        <itemizedlist>
+            <listitem><para>ostream &amp; <link linkend="_class_registration_1a0fd17e4423f843b3a2d6d265ef12419e">operator&lt;&lt;</link> (ostream &amp;os, const <link linkend="_class_registration">Registration</link> &amp;R)</para>
+</listitem>
+            <listitem><para>istream &amp; <link linkend="_class_registration_1ac6e479de58958d2b0a2295ceb04926da">operator&gt;&gt;</link> (istream &amp;input, <link linkend="_class_registration">Registration</link> &amp;R)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__r_e_g_i_s_t_8h_source_1l00018">18</link> of file <link linkend="__r_e_g_i_s_t_8h_source">REGIST.h</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_registration_1aac811faf22fe96a7f657a282d6d679ab"/><section>
+    <title>Registration()</title>
+<indexterm><primary>Registration</primary><secondary>Registration</secondary></indexterm>
+<indexterm><primary>Registration</primary><secondary>Registration</secondary></indexterm>
+<para><computeroutput>Registration::Registration ( )</computeroutput></para><para>
+Definition at line <link linkend="__r_e_g_i_s_t_8cpp_source_1l00006">6</link> of file <link linkend="__r_e_g_i_s_t_8cpp_source">REGIST.cpp</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_registration_1a729a2d6ae08aefd2dbe10ec7b3e5ce48"/><section>
+    <title>GetCount()</title>
+<indexterm><primary>GetCount</primary><secondary>Registration</secondary></indexterm>
+<indexterm><primary>Registration</primary><secondary>GetCount</secondary></indexterm>
+<para><computeroutput>unsigned Registration::GetCount ( ) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__r_e_g_i_s_t_8h_source_1l00043">43</link> of file <link linkend="__r_e_g_i_s_t_8h_source">REGIST.h</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_registration_a729a2d6ae08aefd2dbe10ec7b3e5ce48_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_registration_1a72a5cc800d9551d69e4c201cd9f07ccd"/><section>
+    <title>GetCredits()</title>
+<indexterm><primary>GetCredits</primary><secondary>Registration</secondary></indexterm>
+<indexterm><primary>Registration</primary><secondary>GetCredits</secondary></indexterm>
+<para><computeroutput>unsigned Registration::GetCredits ( ) const</computeroutput></para><para>
+Definition at line <link linkend="__r_e_g_i_s_t_8cpp_source_1l00011">11</link> of file <link linkend="__r_e_g_i_s_t_8cpp_source">REGIST.cpp</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_registration_a72a5cc800d9551d69e4c201cd9f07ccd_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_registration_a72a5cc800d9551d69e4c201cd9f07ccd_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Friends And Related Function Documentation</title>
+<anchor xml:id="_class_registration_1a0fd17e4423f843b3a2d6d265ef12419e"/><section>
+    <title>operator&lt;&lt;</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>Registration</secondary></indexterm>
+<indexterm><primary>Registration</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; os, const <link linkend="_class_registration">Registration</link> &amp; R)<computeroutput>[friend]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__r_e_g_i_s_t_8cpp_source_1l00030">30</link> of file <link linkend="__r_e_g_i_s_t_8cpp_source">REGIST.cpp</link>.</para>
+</section>
+<anchor xml:id="_class_registration_1ac6e479de58958d2b0a2295ceb04926da"/><section>
+    <title>operator&gt;&gt;</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>Registration</secondary></indexterm>
+<indexterm><primary>Registration</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; input, <link linkend="_class_registration">Registration</link> &amp; R)<computeroutput>[friend]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__r_e_g_i_s_t_8cpp_source_1l00020">20</link> of file <link linkend="__r_e_g_i_s_t_8cpp_source">REGIST.cpp</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+<link linkend="__r_e_g_i_s_t_8h">REGIST.h</link><link linkend="__r_e_g_i_s_t_8cpp">REGIST.cpp</link></section>
+</section>

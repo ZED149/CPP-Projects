@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_u_n_i_t_8h" kind="file" language="C++">
+    <compoundname>UNIT.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includedby refid="_r_e_g_i_s_t_8h" local="yes">REGIST.h</includedby>
+    <includedby refid="_r_e_s_u_l_t_8h" local="yes">RESULT.h</includedby>
+    <includedby refid="_u_n_i_t_8cpp" local="yes">UNIT.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>UNIT.h</label>
+        <link refid="_u_n_i_t_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>MAIN.cpp</label>
+        <link refid="_m_a_i_n_8cpp"/>
+      </node>
+      <node id="4">
+        <label>REGIST.cpp</label>
+        <link refid="_r_e_g_i_s_t_8cpp"/>
+      </node>
+      <node id="2">
+        <label>REGIST.h</label>
+        <link refid="_r_e_g_i_s_t_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>RESULT.cpp</label>
+        <link refid="_r_e_s_u_l_t_8cpp"/>
+      </node>
+      <node id="5">
+        <label>RESULT.h</label>
+        <link refid="_r_e_s_u_l_t_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>UNIT.cpp</label>
+        <link refid="_u_n_i_t_8cpp"/>
+      </node>
+      <node id="1">
+        <label>UNIT.h</label>
+        <link refid="_u_n_i_t_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_u_n_i_t" prot="public">UNIT</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_u_n_i_t_8h_1a05b932fd476028abfcdc0ca8efa7b087" prot="public" static="no">
+        <name>UNIT_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="13" column="9" bodyfile="UNIT.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_n_i_t_8h_1a96dd41e291a9d9cbf80b9e203736daab" prot="public" static="no" mutable="no">
+        <type>const unsigned</type>
+        <definition>const unsigned Max_Name_Size</definition>
+        <argsstring></argsstring>
+        <name>Max_Name_Size</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="9" column="16" bodyfile="UNIT.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_u_n_i_t_8h_1a67bbf4b551fba0776eda8f6a0acbbf0b" prot="public" static="no" mutable="no">
+        <type>const unsigned</type>
+        <definition>const unsigned Max_Id_Size</definition>
+        <argsstring></argsstring>
+        <name>Max_Id_Size</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="10" column="16" bodyfile="UNIT.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>the<sp/>UNIT<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Declaring<sp/>some<sp/>global<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="_u_n_i_t_8h_1a96dd41e291a9d9cbf80b9e203736daab" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="_u_n_i_t_8h_1a96dd41e291a9d9cbf80b9e203736daab" kindref="member">Max_Name_Size</ref><sp/>=<sp/>100;</highlight></codeline>
+<codeline lineno="10" refid="_u_n_i_t_8h_1a67bbf4b551fba0776eda8f6a0acbbf0b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="_u_n_i_t_8h_1a67bbf4b551fba0776eda8f6a0acbbf0b" kindref="member">Max_Id_Size</ref><sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UNIT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="_u_n_i_t_8h_1a05b932fd476028abfcdc0ca8efa7b087" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNIT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Class<sp/>starting<sp/>from<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="class_u_n_i_t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_u_n_i_t" kindref="compound">UNIT</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>private<sp/>data<sp/>members</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>name[<ref refid="_u_n_i_t_8h_1a96dd41e291a9d9cbf80b9e203736daab" kindref="member">Max_Name_Size</ref>];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">[<ref refid="_u_n_i_t_8h_1a67bbf4b551fba0776eda8f6a0acbbf0b" kindref="member">Max_Id_Size</ref>];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>crh;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Operator<sp/>Overloading</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>overloading<sp/>stream<sp/>operators</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>output<sp/>operator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>ostream&amp;<sp/><ref refid="class_u_n_i_t_1aa841f19717e76e9f5c64c5058a92a308" kindref="member">operator &lt;&lt; </ref>(ostream&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_u_n_i_t" kindref="compound">UNIT</ref>&amp;<sp/>U);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>input<sp/>operator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>istream&amp;<sp/><ref refid="class_u_n_i_t_1a72e308c8d6fb1de90073f10f3ac06a8f" kindref="member">operator &gt;&gt; </ref>(istream&amp;<sp/>in,<sp/><ref refid="class_u_n_i_t" kindref="compound">UNIT</ref>&amp;<sp/>U);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Returns<sp/>number<sp/>of<sp/>credits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>where<sp/>the<sp/>member<sp/>goes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Default<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff" kindref="member">UNIT</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructor<sp/>with<sp/>params</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff" kindref="member">UNIT</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>crh);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Getters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>GetCredits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="class_u_n_i_t_1af7d094fb0ec415c8561933e4137fe29b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="class_u_n_i_t_1af7d094fb0ec415c8561933e4137fe29b" kindref="member">GetCredits</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="44"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crh;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Setters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_u_n_i_t_1a3a62357ef4380e0740f60d447d3b2d16" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_u_n_i_t_1a3a62357ef4380e0740f60d447d3b2d16" kindref="member">SetCredits</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>val)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;crh<sp/>=<sp/>val;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="UNIT.h"/>
+  </compounddef>
+</doxygen>

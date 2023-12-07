@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_course" xml:lang="en-US">
+<title>Course Class Reference</title>
+<indexterm><primary>Course</primary></indexterm>
+<para>
+<computeroutput>#include &lt;COURSE.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_course_1a6b959ccf15d9ceed9e9c14a701561982">Course</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_course_1ac2121e059c09d6f311a5499fa4c3fb1c">Course</link> (const char *nam, char sect, unsigned cred)</para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_class_course_1a0d6ecc51cf62d796d6c795a7e9d76aa0">GetCredits</link> () const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_course_1ab889c7d28b861ef596262d032330410e">SetCredits</link> (unsigned cred)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Friends    </title>
+        <itemizedlist>
+            <listitem><para>ostream &amp; <link linkend="_class_course_1a34fb723016b27ed6167580748a679c5d">operator&lt;&lt;</link> (ostream &amp;os, const <link linkend="_class_course">Course</link> &amp;C)</para>
+</listitem>
+            <listitem><para>istream &amp; <link linkend="_class_course_1a9aad032462b43af24ce44ad784005e14">operator&gt;&gt;</link> (istream &amp;input, <link linkend="_class_course">Course</link> &amp;C)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__c_o_u_r_s_e_8h_source_1l00015">15</link> of file <link linkend="__c_o_u_r_s_e_8h_source">COURSE.h</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_course_1a6b959ccf15d9ceed9e9c14a701561982"/><section>
+    <title>Course()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Course</primary><secondary>Course</secondary></indexterm>
+<indexterm><primary>Course</primary><secondary>Course</secondary></indexterm>
+<para><computeroutput>Course::Course ( )</computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8cpp_source_1l00006">6</link> of file <link linkend="__c_o_u_r_s_e_8cpp_source">COURSE.cpp</link>.</para>
+</section>
+<anchor xml:id="_class_course_1ac2121e059c09d6f311a5499fa4c3fb1c"/><section>
+    <title>Course()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Course</primary><secondary>Course</secondary></indexterm>
+<indexterm><primary>Course</primary><secondary>Course</secondary></indexterm>
+<para><computeroutput>Course::Course (const char * nam, char sect, unsigned cred)</computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8cpp_source_1l00011">11</link> of file <link linkend="__c_o_u_r_s_e_8cpp_source">COURSE.cpp</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_course_1a0d6ecc51cf62d796d6c795a7e9d76aa0"/><section>
+    <title>GetCredits()</title>
+<indexterm><primary>GetCredits</primary><secondary>Course</secondary></indexterm>
+<indexterm><primary>Course</primary><secondary>GetCredits</secondary></indexterm>
+<para><computeroutput>unsigned Course::GetCredits ( ) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8h_source_1l00043">43</link> of file <link linkend="__c_o_u_r_s_e_8h_source">COURSE.h</link>.</para>
+</section>
+<anchor xml:id="_class_course_1ab889c7d28b861ef596262d032330410e"/><section>
+    <title>SetCredits()</title>
+<indexterm><primary>SetCredits</primary><secondary>Course</secondary></indexterm>
+<indexterm><primary>Course</primary><secondary>SetCredits</secondary></indexterm>
+<para><computeroutput>void Course::SetCredits (unsigned cred)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8h_source_1l00048">48</link> of file <link linkend="__c_o_u_r_s_e_8h_source">COURSE.h</link>.</para>
+</section>
+</section>
+<section>
+<title>Friends And Related Function Documentation</title>
+<anchor xml:id="_class_course_1a34fb723016b27ed6167580748a679c5d"/><section>
+    <title>operator&lt;&lt;</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>Course</secondary></indexterm>
+<indexterm><primary>Course</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; os, const <link linkend="_class_course">Course</link> &amp; C)<computeroutput>[friend]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8cpp_source_1l00026">26</link> of file <link linkend="__c_o_u_r_s_e_8cpp_source">COURSE.cpp</link>.</para>
+</section>
+<anchor xml:id="_class_course_1a9aad032462b43af24ce44ad784005e14"/><section>
+    <title>operator&gt;&gt;</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>Course</secondary></indexterm>
+<indexterm><primary>Course</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; input, <link linkend="_class_course">Course</link> &amp; C)<computeroutput>[friend]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8cpp_source_1l00020">20</link> of file <link linkend="__c_o_u_r_s_e_8cpp_source">COURSE.cpp</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+<link linkend="__c_o_u_r_s_e_8h">COURSE.h</link><link linkend="__c_o_u_r_s_e_8cpp">COURSE.cpp</link></section>
+</section>

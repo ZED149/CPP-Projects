@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_result" xml:lang="en-US">
+<title>Result Class Reference</title>
+<indexterm><primary>Result</primary></indexterm>
+<para>
+<computeroutput>#include &lt;RESULT.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_result_1a90f44667e23d25ccdeac37f00a74657b">Result</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_result_1aca6abd5a46e07aab73990a5b78ed0901">Result</link> (unsigned mark, <link linkend="_class_u_n_i_t">UNIT</link> u)</para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_class_result_1ab4772c61e1094931099000f5792aeaa6">GetCredits</link> () const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Friends    </title>
+        <itemizedlist>
+            <listitem><para>ostream &amp; <link linkend="_class_result_1a369d13b777b8cac9d90afb19ff2157e2">operator&lt;&lt;</link> (ostream &amp;out, const <link linkend="_class_result">Result</link> &amp;r)</para>
+</listitem>
+            <listitem><para>istream &amp; <link linkend="_class_result_1ae4611b45b098a2223731858cc8c46f73">operator&gt;&gt;</link> (istream &amp;in, <link linkend="_class_result">Result</link> &amp;r)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__r_e_s_u_l_t_8h_source_1l00012">12</link> of file <link linkend="__r_e_s_u_l_t_8h_source">RESULT.h</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_result_1a90f44667e23d25ccdeac37f00a74657b"/><section>
+    <title>Result()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>Result</primary><secondary>Result</secondary></indexterm>
+<indexterm><primary>Result</primary><secondary>Result</secondary></indexterm>
+<para><computeroutput>Result::Result ( )</computeroutput></para><para>
+Definition at line <link linkend="__r_e_s_u_l_t_8cpp_source_1l00011">11</link> of file <link linkend="__r_e_s_u_l_t_8cpp_source">RESULT.cpp</link>.</para>
+</section>
+<anchor xml:id="_class_result_1aca6abd5a46e07aab73990a5b78ed0901"/><section>
+    <title>Result()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>Result</primary><secondary>Result</secondary></indexterm>
+<indexterm><primary>Result</primary><secondary>Result</secondary></indexterm>
+<para><computeroutput>Result::Result (unsigned mark, <link linkend="_class_u_n_i_t">UNIT</link> u)</computeroutput></para><para>
+Definition at line <link linkend="__r_e_s_u_l_t_8cpp_source_1l00018">18</link> of file <link linkend="__r_e_s_u_l_t_8cpp_source">RESULT.cpp</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_result_1ab4772c61e1094931099000f5792aeaa6"/><section>
+    <title>GetCredits()</title>
+<indexterm><primary>GetCredits</primary><secondary>Result</secondary></indexterm>
+<indexterm><primary>Result</primary><secondary>GetCredits</secondary></indexterm>
+<para><computeroutput>unsigned Result::GetCredits ( ) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__r_e_s_u_l_t_8h_source_1l00035">35</link> of file <link linkend="__r_e_s_u_l_t_8h_source">RESULT.h</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_result_ab4772c61e1094931099000f5792aeaa6_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Friends And Related Function Documentation</title>
+<anchor xml:id="_class_result_1a369d13b777b8cac9d90afb19ff2157e2"/><section>
+    <title>operator&lt;&lt;</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>Result</secondary></indexterm>
+<indexterm><primary>Result</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; out, const <link linkend="_class_result">Result</link> &amp; r)<computeroutput>[friend]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__r_e_s_u_l_t_8cpp_source_1l00027">27</link> of file <link linkend="__r_e_s_u_l_t_8cpp_source">RESULT.cpp</link>.</para>
+</section>
+<anchor xml:id="_class_result_1ae4611b45b098a2223731858cc8c46f73"/><section>
+    <title>operator&gt;&gt;</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>Result</secondary></indexterm>
+<indexterm><primary>Result</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; in, <link linkend="_class_result">Result</link> &amp; r)<computeroutput>[friend]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__r_e_s_u_l_t_8cpp_source_1l00036">36</link> of file <link linkend="__r_e_s_u_l_t_8cpp_source">RESULT.cpp</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+<link linkend="__r_e_s_u_l_t_8h">RESULT.h</link><link linkend="__r_e_s_u_l_t_8cpp">RESULT.cpp</link></section>
+</section>

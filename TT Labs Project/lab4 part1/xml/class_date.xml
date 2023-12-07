@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_date" kind="class" language="C++" prot="public">
+    <compoundname>Date</compoundname>
+    <includes refid="_d_a_t_e_8h" local="no">DATE.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_date_1a8ffcd034623f1a4eac1b86aadfa3133d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Date::date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <qualifiedname>Date::date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DATE.h" line="18" column="8" bodyfile="DATE.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_date_1a4e59ed4ba66eec61c27460c5d09fa1bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Date::Date</definition>
+        <argsstring>()</argsstring>
+        <name>Date</name>
+        <qualifiedname>Date::Date</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DATE.h" line="23" column="1" bodyfile="DATE.cpp" bodystart="12" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_date_1a21480bdd8dfe19ece32a51378ffd4b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;out, const Date &amp;d)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>Date::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_date" kindref="compound">Date</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DATE.h" line="29" column="8" bodyfile="DATE.cpp" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_date_1a5984a622162ebb81eb67c357594c28cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>istream &amp;</type>
+        <definition>istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;in, Date &amp;d)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>Date::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type><ref refid="class_date" kindref="compound">Date</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DATE.h" line="32" column="16" bodyfile="DATE.cpp" bodystart="28" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="DATE.h" line="15" column="1" bodyfile="DATE.h" bodystart="16" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_date_1a8ffcd034623f1a4eac1b86aadfa3133d" prot="private" virt="non-virtual"><scope>Date</scope><name>date</name></member>
+      <member refid="class_date_1a4e59ed4ba66eec61c27460c5d09fa1bd" prot="public" virt="non-virtual"><scope>Date</scope><name>Date</name></member>
+      <member refid="class_date_1a21480bdd8dfe19ece32a51378ffd4b82" prot="public" virt="non-virtual"><scope>Date</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_date_1a5984a622162ebb81eb67c357594c28cd" prot="public" virt="non-virtual"><scope>Date</scope><name>operator&gt;&gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

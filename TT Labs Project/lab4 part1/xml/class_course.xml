@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_course" kind="class" language="C++" prot="public">
+    <compoundname>Course</compoundname>
+    <includes refid="_c_o_u_r_s_e_8h" local="no">COURSE.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_course_1a0fe5cd1c8e7258a8c2e1e586928faeb7" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Course::name[CourseNameSize]</definition>
+        <argsstring>[CourseNameSize]</argsstring>
+        <name>name</name>
+        <qualifiedname>Course::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="37" column="6" bodyfile="COURSE.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_course_1a72d7560507de9d84197fca46b04ac8ee" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char Course::section</definition>
+        <argsstring></argsstring>
+        <name>section</name>
+        <qualifiedname>Course::section</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="38" column="6" bodyfile="COURSE.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_course_1ae6859731480634f2990b1f2503bf41f8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Course::credits</definition>
+        <argsstring></argsstring>
+        <name>credits</name>
+        <qualifiedname>Course::credits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="39" column="6" bodyfile="COURSE.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_course_1a6b959ccf15d9ceed9e9c14a701561982" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Course::Course</definition>
+        <argsstring>()</argsstring>
+        <name>Course</name>
+        <qualifiedname>Course::Course</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="17" column="1" bodyfile="COURSE.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_course_1ac2121e059c09d6f311a5499fa4c3fb1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Course::Course</definition>
+        <argsstring>(const char *nam, char sect, unsigned cred)</argsstring>
+        <name>Course</name>
+        <qualifiedname>Course::Course</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>nam</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>sect</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>cred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="18" column="1" bodyfile="COURSE.cpp" bodystart="11" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_course_1a0d6ecc51cf62d796d6c795a7e9d76aa0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned Course::GetCredits</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCredits</name>
+        <qualifiedname>Course::GetCredits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="22" column="10" bodyfile="COURSE.h" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_course_1ab889c7d28b861ef596262d032330410e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Course::SetCredits</definition>
+        <argsstring>(unsigned cred)</argsstring>
+        <name>SetCredits</name>
+        <qualifiedname>Course::SetCredits</qualifiedname>
+        <param>
+          <type>unsigned</type>
+          <declname>cred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="25" column="6" bodyfile="COURSE.h" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_course_1a34fb723016b27ed6167580748a679c5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const Course &amp;C)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>Course::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_course" kindref="compound">Course</ref> &amp;</type>
+          <declname>C</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="33" column="8" bodyfile="COURSE.cpp" bodystart="26" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_course_1a9aad032462b43af24ce44ad784005e14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>istream &amp;</type>
+        <definition>istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;input, Course &amp;C)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>Course::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>istream &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type><ref refid="class_course" kindref="compound">Course</ref> &amp;</type>
+          <declname>C</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="COURSE.h" line="34" column="16" bodyfile="COURSE.cpp" bodystart="20" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="COURSE.h" line="15" column="1" bodyfile="COURSE.h" bodystart="15" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_course_1a6b959ccf15d9ceed9e9c14a701561982" prot="public" virt="non-virtual"><scope>Course</scope><name>Course</name></member>
+      <member refid="class_course_1ac2121e059c09d6f311a5499fa4c3fb1c" prot="public" virt="non-virtual"><scope>Course</scope><name>Course</name></member>
+      <member refid="class_course_1ae6859731480634f2990b1f2503bf41f8" prot="private" virt="non-virtual"><scope>Course</scope><name>credits</name></member>
+      <member refid="class_course_1a0d6ecc51cf62d796d6c795a7e9d76aa0" prot="public" virt="non-virtual"><scope>Course</scope><name>GetCredits</name></member>
+      <member refid="class_course_1a0fe5cd1c8e7258a8c2e1e586928faeb7" prot="private" virt="non-virtual"><scope>Course</scope><name>name</name></member>
+      <member refid="class_course_1a34fb723016b27ed6167580748a679c5d" prot="public" virt="non-virtual"><scope>Course</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_course_1a9aad032462b43af24ce44ad784005e14" prot="public" virt="non-virtual"><scope>Course</scope><name>operator&gt;&gt;</name></member>
+      <member refid="class_course_1a72d7560507de9d84197fca46b04ac8ee" prot="private" virt="non-virtual"><scope>Course</scope><name>section</name></member>
+      <member refid="class_course_1ab889c7d28b861ef596262d032330410e" prot="public" virt="non-virtual"><scope>Course</scope><name>SetCredits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

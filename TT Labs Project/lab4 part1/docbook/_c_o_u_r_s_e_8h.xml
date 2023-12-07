@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__c_o_u_r_s_e_8h" xml:lang="en-US">
+<title>COURSE.h File Reference</title>
+<indexterm><primary>COURSE.h</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;<?linebreak?>#include &lt;string.h&gt;<?linebreak?></programlisting>Include dependency graph for COURSE.h:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_c_o_u_r_s_e_8h__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+This graph shows which files directly or indirectly include this file:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_c_o_u_r_s_e_8h__dep__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_course">Course</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>const unsigned <link linkend="__c_o_u_r_s_e_8h_1a0a074da20a0006b8526250383bf5855a">CourseNameSize</link> = 10</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="__c_o_u_r_s_e_8h_1a0a074da20a0006b8526250383bf5855a"/><section>
+    <title>CourseNameSize</title>
+<indexterm><primary>CourseNameSize</primary><secondary>COURSE.h</secondary></indexterm>
+<indexterm><primary>COURSE.h</primary><secondary>CourseNameSize</secondary></indexterm>
+<para><computeroutput>const unsigned CourseNameSize = 10</computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8h_source_1l00013">13</link> of file <link linkend="__c_o_u_r_s_e_8h_source">COURSE.h</link>.</para>
+</section>
+</section>
+</section>

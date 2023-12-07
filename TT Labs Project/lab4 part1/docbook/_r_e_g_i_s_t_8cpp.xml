@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__r_e_g_i_s_t_8cpp" xml:lang="en-US">
+<title>REGIST.cpp File Reference</title>
+<indexterm><primary>REGIST.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;regist.h&quot;<?linebreak?></programlisting>Include dependency graph for REGIST.cpp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_r_e_g_i_s_t_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>istream &amp; <link linkend="__r_e_g_i_s_t_8cpp_1ac6e479de58958d2b0a2295ceb04926da">operator&gt;&gt;</link> (istream &amp;input, <link linkend="_class_registration">Registration</link> &amp;R)</para>
+</listitem>
+            <listitem><para>ostream &amp; <link linkend="__r_e_g_i_s_t_8cpp_1a0fd17e4423f843b3a2d6d265ef12419e">operator&lt;&lt;</link> (ostream &amp;os, const <link linkend="_class_registration">Registration</link> &amp;R)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__r_e_g_i_s_t_8cpp_1a0fd17e4423f843b3a2d6d265ef12419e"/><section>
+    <title>operator&lt;&lt;()</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>REGIST.cpp</secondary></indexterm>
+<indexterm><primary>REGIST.cpp</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; os, const <link linkend="_class_registration">Registration</link> &amp; R)</computeroutput></para><para>
+Definition at line <link linkend="__r_e_g_i_s_t_8cpp_source_1l00030">30</link> of file <link linkend="__r_e_g_i_s_t_8cpp_source">REGIST.cpp</link>.</para>
+</section>
+<anchor xml:id="__r_e_g_i_s_t_8cpp_1ac6e479de58958d2b0a2295ceb04926da"/><section>
+    <title>operator&gt;&gt;()</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>REGIST.cpp</secondary></indexterm>
+<indexterm><primary>REGIST.cpp</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; input, <link linkend="_class_registration">Registration</link> &amp; R)</computeroutput></para><para>
+Definition at line <link linkend="__r_e_g_i_s_t_8cpp_source_1l00020">20</link> of file <link linkend="__r_e_g_i_s_t_8cpp_source">REGIST.cpp</link>.</para>
+</section>
+</section>
+</section>

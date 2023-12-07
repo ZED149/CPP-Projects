@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__u_n_i_t_8cpp_source" xml:lang="en-US">
+<title>UNIT.cpp</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__u_n_i_t_8cpp_source_1l00001"/>00001 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00002"/>00002 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00003"/>00003 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="__u_n_i_t_8h">UNIT.h</link>&quot;</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00004"/>00004 <emphasis role="preprocessor">#include&#32;&lt;iostream&gt;</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00005"/>00005 <emphasis role="keyword">using&#32;namespace&#32;</emphasis>std;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00006"/>00006 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00007"/>00007 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00008"/>00008 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00009"/>00009 <emphasis role="comment">//&#32;Constructors</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00010"/>00010 <emphasis role="comment">//&#32;Default&#32;Constructor</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00011"/><link linkend="_class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff">00011</link> <link linkend="_class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff">UNIT::UNIT</link>()
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00012"/>00012 {
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00013"/>00013 &#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;UNIT()&#32;called&quot;</emphasis>&#32;&lt;&lt;&#32;endl;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00014"/>00014 &#32;&#32;&#32;&#32;this-&gt;crh&#32;=&#32;0;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00015"/>00015 &#32;&#32;&#32;&#32;name[0]&#32;=&#32;<emphasis role="charliteral">&apos;\0&apos;</emphasis>;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00016"/>00016 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">id</emphasis>[0]&#32;=&#32;<emphasis role="charliteral">&apos;\0&apos;</emphasis>;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00017"/>00017 }
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00018"/>00018 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00019"/>00019 <emphasis role="comment">//&#32;Constructor&#32;with&#32;params</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00020"/><link linkend="_class_u_n_i_t_1a442cf35ec8968dfc18c8b7a64a399b85">00020</link> <link linkend="_class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff">UNIT::UNIT</link>(<emphasis role="keywordtype">char</emphasis>*&#32;name,&#32;<emphasis role="keywordtype">char</emphasis>*&#32;<emphasis role="keywordtype">id</emphasis>,&#32;<emphasis role="keywordtype">unsigned</emphasis>&#32;<emphasis role="keywordtype">int</emphasis>&#32;crh)
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00021"/>00021 {
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00022"/>00022 &#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;UNIT(params)&#32;called&quot;</emphasis>&#32;&lt;&lt;&#32;endl;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00023"/>00023 &#32;&#32;&#32;&#32;strcpy_s(this-&gt;name,&#32;strlen(name)&#32;+&#32;1,&#32;&#32;name);
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00024"/>00024 &#32;&#32;&#32;&#32;strcpy_s(this-&gt;<emphasis role="keywordtype">id</emphasis>,&#32;strlen(<emphasis role="keywordtype">id</emphasis>)&#32;+&#32;1,&#32;<emphasis role="keywordtype">id</emphasis>);
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00025"/>00025 &#32;&#32;&#32;&#32;this-&gt;crh&#32;=&#32;crh;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00026"/>00026 }
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00027"/>00027 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00028"/>00028 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00029"/>00029 <emphasis role="comment">//&#32;Operator&#32;Overloading</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00030"/>00030 <emphasis role="comment">//&#32;Output&#32;operator</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00031"/><link linkend="_class_u_n_i_t_1aa841f19717e76e9f5c64c5058a92a308">00031</link> ostream&amp;&#32;<link linkend="__u_n_i_t_8cpp_1aa841f19717e76e9f5c64c5058a92a308">operator &lt;&lt; </link>(ostream&amp;&#32;out,&#32;<emphasis role="keyword">const</emphasis>&#32;<link linkend="_class_u_n_i_t">UNIT</link>&amp;&#32;U)
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00032"/>00032 {
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00033"/>00033 &#32;&#32;&#32;&#32;out&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;\tUnit&#32;ID:&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;U.id&#32;&lt;&lt;&#32;endl
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00034"/>00034 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;\tUnit&#32;Name:&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;U.name&#32;&lt;&lt;&#32;endl
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00035"/>00035 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;\tCredits:&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;U.crh&#32;&lt;&lt;&#32;endl;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00036"/>00036 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00037"/>00037 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;out;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00038"/>00038 }
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00039"/>00039 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00040"/>00040 <emphasis role="comment">//&#32;Input&#32;operator</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00041"/><link linkend="_class_u_n_i_t_1a72e308c8d6fb1de90073f10f3ac06a8f">00041</link> istream&amp;&#32;<link linkend="__u_n_i_t_8cpp_1a72e308c8d6fb1de90073f10f3ac06a8f">operator &gt;&gt; </link>(istream&amp;&#32;in,&#32;<link linkend="_class_u_n_i_t">UNIT</link>&amp;&#32;U)
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00042"/>00042 {
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00043"/>00043 &#32;&#32;&#32;&#32;in&#32;&gt;&gt;&#32;U.name&#32;&gt;&gt;&#32;U.id&#32;&gt;&gt;&#32;U.crh;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00044"/>00044 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;in;
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00045"/>00045 }
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00046"/>00046 
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00047"/>00047 <emphasis role="comment">//&#32;Getters</emphasis>
+<anchor xml:id="__u_n_i_t_8cpp_source_1l00048"/>00048 <emphasis role="comment">//&#32;Get&#32;Credit</emphasis>
+</programlisting></section>

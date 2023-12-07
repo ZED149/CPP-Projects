@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_registration" kind="class" language="C++" prot="public">
+    <compoundname>Registration</compoundname>
+    <includes refid="_r_e_g_i_s_t_8h" local="no">REGIST.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_registration_1afd5372c81feb6789de53e214cce5de98" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long Registration::studentId</definition>
+        <argsstring></argsstring>
+        <name>studentId</name>
+        <qualifiedname>Registration::studentId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="37" column="6" bodyfile="REGIST.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_registration_1a8066587368d525893c3815e03c34624a" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned Registration::semester</definition>
+        <argsstring></argsstring>
+        <name>semester</name>
+        <qualifiedname>Registration::semester</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="38" column="10" bodyfile="REGIST.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_registration_1ae3a559909696991600f8df336e5b3f83" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned Registration::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <qualifiedname>Registration::count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="39" column="10" bodyfile="REGIST.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_registration_1ae3380ad78a638a818458ae5c84995e3e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_result" kindref="compound">Result</ref></type>
+        <definition>Result Registration::r[MaxResults]</definition>
+        <argsstring>[MaxResults]</argsstring>
+        <name>r</name>
+        <qualifiedname>Registration::r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="40" column="8" bodyfile="REGIST.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_registration_1aac811faf22fe96a7f657a282d6d679ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Registration::Registration</definition>
+        <argsstring>()</argsstring>
+        <name>Registration</name>
+        <qualifiedname>Registration::Registration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="20" column="1" bodyfile="REGIST.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_registration_1a72a5cc800d9551d69e4c201cd9f07ccd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned Registration::GetCredits</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCredits</name>
+        <qualifiedname>Registration::GetCredits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="22" column="10" bodyfile="REGIST.cpp" bodystart="11" bodyend="18"/>
+        <references refid="class_registration_1a72a5cc800d9551d69e4c201cd9f07ccd" compoundref="_r_e_g_i_s_t_8cpp" startline="11" endline="18">GetCredits</references>
+        <referencedby refid="class_registration_1a72a5cc800d9551d69e4c201cd9f07ccd" compoundref="_r_e_g_i_s_t_8cpp" startline="11" endline="18">GetCredits</referencedby>
+        <referencedby refid="_m_a_i_n_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_m_a_i_n_8cpp" startline="20" endline="51">main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_registration_1a729a2d6ae08aefd2dbe10ec7b3e5ce48" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned Registration::GetCount</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCount</name>
+        <qualifiedname>Registration::GetCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="23" column="10" bodyfile="REGIST.h" bodystart="43" bodyend="46"/>
+        <referencedby refid="_m_a_i_n_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_m_a_i_n_8cpp" startline="20" endline="51">main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_registration_1a0fd17e4423f843b3a2d6d265ef12419e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;os, const Registration &amp;R)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>Registration::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>os</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_registration" kindref="compound">Registration</ref> &amp;</type>
+          <declname>R</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="31" column="8" bodyfile="REGIST.cpp" bodystart="30" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_registration_1ac6e479de58958d2b0a2295ceb04926da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>istream &amp;</type>
+        <definition>istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;input, Registration &amp;R)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>Registration::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>istream &amp;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type><ref refid="class_registration" kindref="compound">Registration</ref> &amp;</type>
+          <declname>R</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="REGIST.h" line="34" column="16" bodyfile="REGIST.cpp" bodystart="20" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="REGIST.h" line="18" column="1" bodyfile="REGIST.h" bodystart="18" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_registration_1ae3a559909696991600f8df336e5b3f83" prot="private" virt="non-virtual"><scope>Registration</scope><name>count</name></member>
+      <member refid="class_registration_1a729a2d6ae08aefd2dbe10ec7b3e5ce48" prot="public" virt="non-virtual"><scope>Registration</scope><name>GetCount</name></member>
+      <member refid="class_registration_1a72a5cc800d9551d69e4c201cd9f07ccd" prot="public" virt="non-virtual"><scope>Registration</scope><name>GetCredits</name></member>
+      <member refid="class_registration_1a0fd17e4423f843b3a2d6d265ef12419e" prot="public" virt="non-virtual"><scope>Registration</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_registration_1ac6e479de58958d2b0a2295ceb04926da" prot="public" virt="non-virtual"><scope>Registration</scope><name>operator&gt;&gt;</name></member>
+      <member refid="class_registration_1ae3380ad78a638a818458ae5c84995e3e" prot="private" virt="non-virtual"><scope>Registration</scope><name>r</name></member>
+      <member refid="class_registration_1aac811faf22fe96a7f657a282d6d679ab" prot="public" virt="non-virtual"><scope>Registration</scope><name>Registration</name></member>
+      <member refid="class_registration_1a8066587368d525893c3815e03c34624a" prot="private" virt="non-virtual"><scope>Registration</scope><name>semester</name></member>
+      <member refid="class_registration_1afd5372c81feb6789de53e214cce5de98" prot="private" virt="non-virtual"><scope>Registration</scope><name>studentId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

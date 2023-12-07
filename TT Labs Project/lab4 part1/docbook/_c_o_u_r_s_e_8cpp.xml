@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__c_o_u_r_s_e_8cpp" xml:lang="en-US">
+<title>COURSE.cpp File Reference</title>
+<indexterm><primary>COURSE.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;course.h&quot;<?linebreak?></programlisting>Include dependency graph for COURSE.cpp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_c_o_u_r_s_e_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Macros    </title>
+        <itemizedlist>
+            <listitem><para>#define <link linkend="__c_o_u_r_s_e_8cpp_1af08ec37a8c99d747fb60fa15bc28678b">_CRT_SECURE_NO_WARNINGS</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>istream &amp; <link linkend="__c_o_u_r_s_e_8cpp_1a9aad032462b43af24ce44ad784005e14">operator&gt;&gt;</link> (istream &amp;input, <link linkend="_class_course">Course</link> &amp;C)</para>
+</listitem>
+            <listitem><para>ostream &amp; <link linkend="__c_o_u_r_s_e_8cpp_1a34fb723016b27ed6167580748a679c5d">operator&lt;&lt;</link> (ostream &amp;os, const <link linkend="_class_course">Course</link> &amp;C)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Macro Definition Documentation</title>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_1af08ec37a8c99d747fb60fa15bc28678b"/><section>
+    <title>_CRT_SECURE_NO_WARNINGS</title>
+<indexterm><primary>_CRT_SECURE_NO_WARNINGS</primary><secondary>COURSE.cpp</secondary></indexterm>
+<indexterm><primary>COURSE.cpp</primary><secondary>_CRT_SECURE_NO_WARNINGS</secondary></indexterm>
+<para><computeroutput>#define _CRT_SECURE_NO_WARNINGS</computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8cpp_source_1l00002">2</link> of file <link linkend="__c_o_u_r_s_e_8cpp_source">COURSE.cpp</link>.</para>
+</section>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_1a34fb723016b27ed6167580748a679c5d"/><section>
+    <title>operator&lt;&lt;()</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>COURSE.cpp</secondary></indexterm>
+<indexterm><primary>COURSE.cpp</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; os, const <link linkend="_class_course">Course</link> &amp; C)</computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8cpp_source_1l00026">26</link> of file <link linkend="__c_o_u_r_s_e_8cpp_source">COURSE.cpp</link>.</para>
+</section>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_1a9aad032462b43af24ce44ad784005e14"/><section>
+    <title>operator&gt;&gt;()</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>COURSE.cpp</secondary></indexterm>
+<indexterm><primary>COURSE.cpp</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; input, <link linkend="_class_course">Course</link> &amp; C)</computeroutput></para><para>
+Definition at line <link linkend="__c_o_u_r_s_e_8cpp_source_1l00020">20</link> of file <link linkend="__c_o_u_r_s_e_8cpp_source">COURSE.cpp</link>.</para>
+</section>
+</section>
+</section>

@@ -1,0 +1,32 @@
+
+
+#i am makefile
+
+
+all: Event.o Film.o LiveMusic.o Person.o PSH.o Seat.o StandUpComedy.o
+	g++ Film.o LiveMusic.o Person.o PSH.o Seat.o StandUpComedy.o -o out
+
+
+Event: Event.cpp
+	g++ -c Event.cpp -o Event.o
+
+Film: Film.cpp
+	g++ -c Film.cpp -o Film.o
+
+LiveMusic: LiveMusic.cpp
+	g++ -c LiveMusic.cpp -o LiveMusic.o
+
+Person: Person.cpp
+	g++ -c Person.cpp -o Person.o
+
+PSH: PSH.cpp
+	g++ -c Person.cpp -o Person.o
+
+Seat: Seat.cpp
+	g++ -c Seat.cpp -o Seat.o
+
+StandUpComedy: StandUpComedy.cpp
+	g++ -c StandUpComedy.cpp -o StandUpComedy.o
+
+clean:
+	rm -rf *.o out

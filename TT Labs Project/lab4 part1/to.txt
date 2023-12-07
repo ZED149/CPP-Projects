@@ -1,0 +1,22 @@
+Student ID: 12345678
+Semester:   1
+	Unit ID: ICT283
+	Unit Name:  Data Structures And Abstractions
+	Credits: 3
+	Marks: 90
+	Date: 30 December 2016
+
+	Unit ID: ICT289
+	Unit Name:  Computer Graphics
+	Credits: 3
+	Marks: 97
+	Date: 21 January 2023
+
+	Unit ID: CSS023,
+	Unit Name:  Computer Organziation And Assembly Language
+	Credits: 4
+	Marks: 45
+	Date: 01 November 1998
+
+Number of courses = 3
+Total credits     = 10

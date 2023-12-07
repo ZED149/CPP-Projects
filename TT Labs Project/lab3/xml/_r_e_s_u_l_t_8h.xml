@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="_r_e_s_u_l_t_8h" kind="file" language="C++">
+    <compoundname>RESULT.h</compoundname>
+    <includes refid="_u_n_i_t_8h" local="yes">UNIT.h</includes>
+    <includedby refid="_r_e_g_i_s_t_8h" local="yes">REGIST.h</includedby>
+    <includedby refid="_r_e_s_u_l_t_8cpp" local="yes">RESULT.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>RESULT.h</label>
+        <link refid="_r_e_s_u_l_t_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UNIT.h</label>
+        <link refid="_u_n_i_t_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>MAIN.cpp</label>
+        <link refid="_m_a_i_n_8cpp"/>
+      </node>
+      <node id="4">
+        <label>REGIST.cpp</label>
+        <link refid="_r_e_g_i_s_t_8cpp"/>
+      </node>
+      <node id="2">
+        <label>REGIST.h</label>
+        <link refid="_r_e_g_i_s_t_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>RESULT.cpp</label>
+        <link refid="_r_e_s_u_l_t_8cpp"/>
+      </node>
+      <node id="1">
+        <label>RESULT.h</label>
+        <link refid="_r_e_s_u_l_t_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_result" prot="public">Result</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_r_e_s_u_l_t_8h_1aaec3a10d1a6d22f93b754746d1c75563" prot="public" static="no">
+        <name>RESULT_H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RESULT.h" line="10" column="9" bodyfile="RESULT.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>file<sp/>contains<sp/>the<sp/>RESULT<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_u_n_i_t_8h" kindref="compound">UNIT.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>starting<sp/>from<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>RESULT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="_r_e_s_u_l_t_8h_1aaec3a10d1a6d22f93b754746d1c75563" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RESULT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_result" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_result" kindref="compound">Result</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>private<sp/>data<sp/>members</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_u_n_i_t" kindref="compound">UNIT</ref><sp/>u;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Unit<sp/>objext</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>mark;<sp/><sp/></highlight><highlight class="comment">//<sp/>object<sp/>to<sp/>store<sp/>marks<sp/>for<sp/>that<sp/>course</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>operator<sp/>overloading</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>output<sp/>operator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>ostream&amp;<sp/><ref refid="class_result_1a369d13b777b8cac9d90afb19ff2157e2" kindref="member">operator &lt;&lt; </ref>(ostream&amp;<sp/>out,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_result" kindref="compound">Result</ref><sp/>&amp;r);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>input<sp/>operator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>istream&amp;<sp/><ref refid="class_result_1ae4611b45b098a2223731858cc8c46f73" kindref="member">operator &gt;&gt; </ref>(istream&amp;<sp/>in,<sp/><ref refid="class_result" kindref="compound">Result</ref>&amp;<sp/>r);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>where<sp/>the<sp/>member<sp/>goes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Default<sp/>Constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_result_1a90f44667e23d25ccdeac37f00a74657b" kindref="member">Result</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructor<sp/>with<sp/>params</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_result_1a90f44667e23d25ccdeac37f00a74657b" kindref="member">Result</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>mark,<sp/><ref refid="class_u_n_i_t" kindref="compound">UNIT</ref><sp/>u);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Getters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>GetCredits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="class_result_1ab4772c61e1094931099000f5792aeaa6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/><ref refid="class_result_1ab4772c61e1094931099000f5792aeaa6" kindref="member">GetCredits</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="34"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;u.<ref refid="class_u_n_i_t_1af7d094fb0ec415c8561933e4137fe29b" kindref="member">GetCredits</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="RESULT.h"/>
+  </compounddef>
+</doxygen>

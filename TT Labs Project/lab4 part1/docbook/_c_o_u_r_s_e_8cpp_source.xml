@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__c_o_u_r_s_e_8cpp_source" xml:lang="en-US">
+<title>COURSE.cpp</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00001"/>00001 <emphasis role="comment">//&#32;COURSE.CPP&#32;-&#32;Course&#32;class&#32;implementation</emphasis>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00002"/><link linkend="__c_o_u_r_s_e_8cpp_1af08ec37a8c99d747fb60fa15bc28678b">00002</link> <emphasis role="preprocessor">#define&#32;_CRT_SECURE_NO_WARNINGS</emphasis>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00003"/>00003 
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00004"/>00004 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="__c_o_u_r_s_e_8h">course.h</link>&quot;</emphasis>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00005"/>00005 
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00006"/><link linkend="_class_course_1a6b959ccf15d9ceed9e9c14a701561982">00006</link> <link linkend="_class_course_1a6b959ccf15d9ceed9e9c14a701561982">Course::Course</link>()
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00007"/>00007 {
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00008"/>00008 &#32;&#32;&#32;&#32;name[0]&#32;=&#32;<emphasis role="charliteral">&apos;\0&apos;</emphasis>;&#32;<emphasis role="comment">//&#32;it&#32;is&#32;a&#32;char&#32;*&#32;string,&#32;not&#32;a&#32;C++&#32;string&#32;object.</emphasis>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00009"/>00009 }
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00010"/>00010 
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00011"/><link linkend="_class_course_1ac2121e059c09d6f311a5499fa4c3fb1c">00011</link> <link linkend="_class_course_1a6b959ccf15d9ceed9e9c14a701561982">Course::Course</link>(<emphasis role="keyword">const</emphasis>&#32;<emphasis role="keywordtype">char</emphasis>*&#32;nam,&#32;<emphasis role="keywordtype">char</emphasis>&#32;sect,
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00012"/>00012 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">unsigned</emphasis>&#32;cred)
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00013"/>00013 {
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00014"/>00014 &#32;&#32;&#32;&#32;<emphasis role="comment">//strncpy(name,&#32;nam,&#32;CourseNameSize);</emphasis>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00015"/>00015 &#32;&#32;&#32;&#32;strcpy_s(name,&#32;<emphasis role="keyword">sizeof</emphasis>&#32;nam,&#32;nam);
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00016"/>00016 &#32;&#32;&#32;&#32;section&#32;=&#32;sect;
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00017"/>00017 &#32;&#32;&#32;&#32;credits&#32;=&#32;cred;
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00018"/>00018 }
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00019"/>00019 
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00020"/><link linkend="_class_course_1a9aad032462b43af24ce44ad784005e14">00020</link> istream&amp;&#32;<link linkend="__c_o_u_r_s_e_8cpp_1a9aad032462b43af24ce44ad784005e14">operator &gt;&gt;</link>(istream&amp;&#32;input,&#32;<link linkend="_class_course">Course</link>&amp;&#32;C)
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00021"/>00021 {
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00022"/>00022 &#32;&#32;&#32;&#32;input&#32;&gt;&gt;&#32;C.name&#32;&gt;&gt;&#32;C.section&#32;&gt;&gt;&#32;C.credits;
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00023"/>00023 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;input;
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00024"/>00024 }
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00025"/>00025 
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00026"/><link linkend="_class_course_1a34fb723016b27ed6167580748a679c5d">00026</link> ostream&amp;&#32;<link linkend="__c_o_u_r_s_e_8cpp_1a34fb723016b27ed6167580748a679c5d">operator &lt;&lt;</link>(ostream&amp;&#32;os,&#32;<emphasis role="keyword">const</emphasis>&#32;<link linkend="_class_course">Course</link>&amp;&#32;C)
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00027"/>00027 {
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00028"/>00028 &#32;&#32;&#32;&#32;os&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;&#32;&#32;Course:&#32;&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;C.name&#32;&lt;&lt;&#32;<emphasis role="charliteral">&apos;\n&apos;</emphasis>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00029"/>00029 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;&#32;&#32;Section:&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;C.section&#32;&lt;&lt;&#32;<emphasis role="charliteral">&apos;\n&apos;</emphasis>
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00030"/>00030 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;&#32;&#32;Credits:&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;C.credits&#32;&lt;&lt;&#32;<emphasis role="charliteral">&apos;\n&apos;</emphasis>;
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00031"/>00031 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;os;
+<anchor xml:id="__c_o_u_r_s_e_8cpp_source_1l00032"/>00032 }
+</programlisting></section>

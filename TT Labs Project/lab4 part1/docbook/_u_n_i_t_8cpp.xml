@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__u_n_i_t_8cpp" xml:lang="en-US">
+<title>UNIT.cpp File Reference</title>
+<indexterm><primary>UNIT.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;UNIT.h&quot;<?linebreak?>#include &lt;iostream&gt;<?linebreak?></programlisting>Include dependency graph for UNIT.cpp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_u_n_i_t_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>ostream &amp; <link linkend="__u_n_i_t_8cpp_1aa841f19717e76e9f5c64c5058a92a308">operator&lt;&lt;</link> (ostream &amp;out, const <link linkend="_class_u_n_i_t">UNIT</link> &amp;U)</para>
+</listitem>
+            <listitem><para>istream &amp; <link linkend="__u_n_i_t_8cpp_1a72e308c8d6fb1de90073f10f3ac06a8f">operator&gt;&gt;</link> (istream &amp;in, <link linkend="_class_u_n_i_t">UNIT</link> &amp;U)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__u_n_i_t_8cpp_1aa841f19717e76e9f5c64c5058a92a308"/><section>
+    <title>operator&lt;&lt;()</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>UNIT.cpp</secondary></indexterm>
+<indexterm><primary>UNIT.cpp</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; out, const <link linkend="_class_u_n_i_t">UNIT</link> &amp; U)</computeroutput></para><para>
+Definition at line <link linkend="__u_n_i_t_8cpp_source_1l00031">31</link> of file <link linkend="__u_n_i_t_8cpp_source">UNIT.cpp</link>.</para>
+</section>
+<anchor xml:id="__u_n_i_t_8cpp_1a72e308c8d6fb1de90073f10f3ac06a8f"/><section>
+    <title>operator&gt;&gt;()</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>UNIT.cpp</secondary></indexterm>
+<indexterm><primary>UNIT.cpp</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; in, <link linkend="_class_u_n_i_t">UNIT</link> &amp; U)</computeroutput></para><para>
+Definition at line <link linkend="__u_n_i_t_8cpp_source_1l00041">41</link> of file <link linkend="__u_n_i_t_8cpp_source">UNIT.cpp</link>.</para>
+</section>
+</section>
+</section>

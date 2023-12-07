@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__d_a_t_e_8cpp_source" xml:lang="en-US">
+<title>DATE.cpp</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__d_a_t_e_8cpp_source_1l00001"/>00001 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00002"/>00002 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00003"/>00003 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00004"/>00004 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="__d_a_t_e_8h">DATE.h</link>&quot;</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00005"/>00005 <emphasis role="preprocessor">#include&#32;&lt;iostream&gt;</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00006"/>00006 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00007"/>00007 <emphasis role="keyword">using&#32;namespace&#32;</emphasis>std;
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00008"/>00008 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00009"/>00009 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00010"/>00010 <emphasis role="comment">//&#32;Constructor&#32;</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00011"/>00011 <emphasis role="comment">//&#32;Default&#32;Constructor</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00012"/><link linkend="_class_date_1a4e59ed4ba66eec61c27460c5d09fa1bd">00012</link> <link linkend="_class_date_1a4e59ed4ba66eec61c27460c5d09fa1bd">Date::Date</link>()
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00013"/>00013 {
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00014"/>00014 &#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;Date()&#32;called&quot;</emphasis>&#32;&lt;&lt;&#32;endl;
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00015"/>00015 &#32;&#32;&#32;&#32;this-&gt;date&#32;=&#32;<emphasis role="stringliteral">&quot;NULL&quot;</emphasis>;
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00016"/>00016 }
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00017"/>00017 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00018"/>00018 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00019"/>00019 <emphasis role="comment">//&#32;Operator&#32;overloading</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00020"/>00020 <emphasis role="comment">//&#32;Output&#32;operator</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00021"/><link linkend="_class_date_1a21480bdd8dfe19ece32a51378ffd4b82">00021</link> ostream&amp;&#32;<link linkend="__d_a_t_e_8cpp_1a21480bdd8dfe19ece32a51378ffd4b82">operator &lt;&lt; </link>(ostream&amp;&#32;out,&#32;<emphasis role="keyword">const</emphasis>&#32;<link linkend="_class_date">Date</link>&amp;&#32;d)
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00022"/>00022 {
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00023"/>00023 &#32;&#32;&#32;&#32;out&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;\tDate:&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;d.date.c_str();
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00024"/>00024 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;out;
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00025"/>00025 }
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00026"/>00026 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00027"/>00027 <emphasis role="comment">//&#32;Input&#32;operator</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00028"/><link linkend="_class_date_1a5984a622162ebb81eb67c357594c28cd">00028</link> istream&amp;&#32;<link linkend="__d_a_t_e_8cpp_1a5984a622162ebb81eb67c357594c28cd">operator &gt;&gt; </link>(istream&amp;&#32;in,&#32;<link linkend="_class_date">Date</link>&amp;&#32;d)
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00029"/>00029 {
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00030"/>00030 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;need&#32;to&#32;read&#32;that&#32;newline&#32;character&#32;so&#32;that&#32;date&#32;can&#32;be&#32;read&#32;accurately</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00031"/>00031 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">char</emphasis>&#32;buffer[1];
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00032"/>00032 &#32;&#32;&#32;&#32;in.getline(buffer,&#32;1,&#32;<emphasis role="charliteral">&apos;\n&apos;</emphasis>);
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00033"/>00033 
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00034"/>00034 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;reading&#32;date&#32;in&#32;a&#32;buffer&#32;and&#32;storing&#32;it&#32;into&#32;the&#32;date&#32;object</emphasis>
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00035"/>00035 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">char</emphasis>&#32;abuffer[50];
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00036"/>00036 &#32;&#32;&#32;&#32;in.getline(abuffer,&#32;50,&#32;<emphasis role="charliteral">&apos;,&apos;</emphasis>);
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00037"/>00037 &#32;&#32;&#32;&#32;d.date.assign(abuffer);
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00038"/>00038 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;in;
+<anchor xml:id="__d_a_t_e_8cpp_source_1l00039"/>00039 }
+</programlisting></section>

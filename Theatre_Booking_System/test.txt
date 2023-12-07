@@ -1,0 +1,8 @@
+STAND_UP_COMEDY$UCP,0,200,Seated,Allocated,misbah shahid:22:57093241:109@aatiqa iqbal:22:57093241:69@amina shahbaz:22:57093241:100@
+FILM$Amannah Mall,1,200,Seated,Non-Allocated,3D,183
+FILM$Packages Mall,1,200,Seated,Non-Allocated,2D,190
+FILM$TEST_F,1,200,Seated,Non-Allocated,IMAX,0
+LIVE_MUSIC$Lake City,1,300,Standing,Non-Allocated,0
+LIVE_MUSIC$Fortress Stadium,1,300,Standing,Non-Allocated,49
+LIVE_MUSIC$TEST_LM,1,300,Standing,NoN-Allocated,0
+STAND_UP_COMEDY$UCP,1,200,Seated,Allocated,Tanawush Salman:21:123:96@

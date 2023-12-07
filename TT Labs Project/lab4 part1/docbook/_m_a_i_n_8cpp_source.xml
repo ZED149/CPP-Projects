@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__m_a_i_n_8cpp_source" xml:lang="en-US">
+<title>MAIN.cpp</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__m_a_i_n_8cpp_source_1l00001"/>00001 <emphasis role="comment">//&#32;MAIN.CPP&#32;-&#32;Case&#32;Study,&#32;Student&#32;Registration</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00002"/>00002 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00003"/>00003 <emphasis role="comment">//&#32;Count&#32;the&#32;number&#32;of&#32;courses&#32;taken&#32;by&#32;the&#32;student,&#32;calculate&#32;total&#32;credits</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00004"/>00004 <emphasis role="comment">//&#32;author&#32;KRI</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00005"/>00005 <emphasis role="comment">//&#32;modified&#32;smr</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00006"/>00006 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00007"/>00007 <emphasis role="preprocessor">#include&#32;&lt;iostream&gt;</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00008"/>00008 <emphasis role="preprocessor">#include&#32;&lt;fstream&gt;</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00009"/>00009 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="__c_o_u_r_s_e_8h">course.h</link>&quot;</emphasis>&#32;&#32;<emphasis role="comment">//&#32;Course&#32;class&#32;declaration</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00010"/>00010 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="__r_e_g_i_s_t_8h">regist.h</link>&quot;</emphasis>&#32;&#32;<emphasis role="comment">//&#32;Registration&#32;class&#32;declaration</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00011"/>00011 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00012"/>00012 <emphasis role="keyword">using&#32;namespace&#32;</emphasis>std;
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00013"/>00013 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00014"/>00014 <emphasis role="comment">//&#32;Main&#32;program:</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00015"/>00015 <emphasis role="comment">//&#32;Open&#32;an&#32;input&#32;file&#32;stream,&#32;read&#32;a&#32;Registration&#32;object,</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00016"/>00016 <emphasis role="comment">//&#32;including&#32;its&#32;list&#32;of&#32;courses.&#32;Redisplay&#32;all&#32;information,</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00017"/>00017 <emphasis role="comment">//&#32;and&#32;calculate&#32;the&#32;total&#32;credits&#32;taken.&#32;Write&#32;the&#32;results</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00018"/>00018 <emphasis role="comment">//&#32;to&#32;a&#32;file&#32;stream.</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00019"/>00019 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00020"/><link linkend="__m_a_i_n_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">00020</link> <emphasis role="keywordtype">int</emphasis>&#32;<link linkend="__m_a_i_n_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>()
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00021"/>00021 {
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00022"/>00022 &#32;&#32;&#32;&#32;ifstream&#32;infile(<emphasis role="stringliteral">&quot;test.txt&quot;</emphasis>);
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00023"/>00023 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(!infile)
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00024"/>00024 &#32;&#32;&#32;&#32;{
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00025"/>00025 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;Error&#32;opening&#32;file&#32;for&#32;input&quot;</emphasis>&#32;&lt;&lt;&#32;endl;
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00026"/>00026 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;-1;
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00027"/>00027 &#32;&#32;&#32;&#32;};
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00028"/>00028 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00029"/>00029 &#32;&#32;&#32;&#32;<link linkend="_class_registration">Registration</link>&#32;R;
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00030"/>00030 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00031"/>00031 &#32;&#32;&#32;&#32;infile&#32;&gt;&gt;&#32;R;
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00032"/>00032 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00033"/>00033 &#32;&#32;&#32;&#32;ofstream&#32;ofile(<emphasis role="stringliteral">&quot;to.txt&quot;</emphasis>);
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00034"/>00034 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00035"/>00035 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;Use&#32;a&#32;debugger&#32;and&#32;track&#32;down&#32;the&#32;calls&#32;made&#32;&quot;behind&#32;the&#32;scene&quot;</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00036"/>00036 &#32;&#32;&#32;&#32;ofile&#32;&lt;&lt;&#32;R
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00037"/>00037 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;Number&#32;of&#32;courses&#32;=&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;R.<link linkend="_class_registration_1a729a2d6ae08aefd2dbe10ec7b3e5ce48">GetCount</link>()&#32;&lt;&lt;&#32;<emphasis role="charliteral">&apos;\n&apos;</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00038"/>00038 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&lt;&lt;&#32;<emphasis role="stringliteral">&quot;Total&#32;credits&#32;&#32;&#32;&#32;&#32;=&#32;&quot;</emphasis>&#32;&lt;&lt;&#32;R.<link linkend="_class_registration_1a72a5cc800d9551d69e4c201cd9f07ccd">GetCredits</link>()&#32;&lt;&lt;&#32;<emphasis role="charliteral">&apos;\n&apos;</emphasis>;
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00039"/>00039 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00040"/>00040 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;Declare&#32;and&#32;initialize&#32;a&#32;Course,&#32;and&#32;modify</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00041"/>00041 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;its&#32;credits.</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00042"/>00042 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00043"/>00043 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00044"/>00044 &#32;&#32;&#32;&#32;<emphasis role="comment">//For&#32;Lab&#32;3,&#32;you&#32;can&#32;comment&#32;out&#32;this&#32;line&#32;and&#32;the&#32;next&#32;3&#32;lines</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00045"/>00045 &#32;&#32;&#32;&#32;<link linkend="_class_u_n_i_t">UNIT</link>&#32;aUnit((<emphasis role="keywordtype">char</emphasis>*)<emphasis role="stringliteral">&quot;Digital_Logic_Design&quot;</emphasis>,&#32;(<emphasis role="keywordtype">char</emphasis>*)<emphasis role="stringliteral">&quot;CS4139&quot;</emphasis>,&#32;4);
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00046"/>00046 &#32;&#32;&#32;&#32;aUnit.<link linkend="_class_u_n_i_t_1a3a62357ef4380e0740f60d447d3b2d16">SetCredits</link>(5);
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00047"/>00047 &#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;aUnit&#32;&lt;&lt;&#32;endl;&#32;<emphasis role="comment">//&#32;the&#32;operator&#32;&lt;&lt;&#32;for&#32;Course&#32;is&#32;called</emphasis>
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00048"/>00048 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00049"/>00049 
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00050"/>00050 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;0;
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00051"/>00051 }
+<anchor xml:id="__m_a_i_n_8cpp_source_1l00052"/>00052 
+</programlisting></section>

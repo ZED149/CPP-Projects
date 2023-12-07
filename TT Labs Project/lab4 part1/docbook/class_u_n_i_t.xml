@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_u_n_i_t" xml:lang="en-US">
+<title>UNIT Class Reference</title>
+<indexterm><primary>UNIT</primary></indexterm>
+<para>
+<computeroutput>#include &lt;UNIT.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff">UNIT</link> ()</para>
+</listitem>
+            <listitem><para><link linkend="_class_u_n_i_t_1a442cf35ec8968dfc18c8b7a64a399b85">UNIT</link> (char *name, char *id, unsigned int crh)</para>
+</listitem>
+            <listitem><para>unsigned <link linkend="_class_u_n_i_t_1af7d094fb0ec415c8561933e4137fe29b">GetCredits</link> () const</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_u_n_i_t_1a3a62357ef4380e0740f60d447d3b2d16">SetCredits</link> (const unsigned val)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Friends    </title>
+        <itemizedlist>
+            <listitem><para>ostream &amp; <link linkend="_class_u_n_i_t_1aa841f19717e76e9f5c64c5058a92a308">operator&lt;&lt;</link> (ostream &amp;out, const <link linkend="_class_u_n_i_t">UNIT</link> &amp;U)</para>
+</listitem>
+            <listitem><para>istream &amp; <link linkend="_class_u_n_i_t_1a72e308c8d6fb1de90073f10f3ac06a8f">operator&gt;&gt;</link> (istream &amp;in, <link linkend="_class_u_n_i_t">UNIT</link> &amp;U)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+<para>
+Definition at line <link linkend="__u_n_i_t_8h_source_1l00015">15</link> of file <link linkend="__u_n_i_t_8h_source">UNIT.h</link>.</para>
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff"/><section>
+    <title>UNIT()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>UNIT</primary><secondary>UNIT</secondary></indexterm>
+<indexterm><primary>UNIT</primary><secondary>UNIT</secondary></indexterm>
+<para><computeroutput>UNIT::UNIT ( )</computeroutput></para><para>
+Definition at line <link linkend="__u_n_i_t_8cpp_source_1l00011">11</link> of file <link linkend="__u_n_i_t_8cpp_source">UNIT.cpp</link>.</para>
+</section>
+<anchor xml:id="_class_u_n_i_t_1a442cf35ec8968dfc18c8b7a64a399b85"/><section>
+    <title>UNIT()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>UNIT</primary><secondary>UNIT</secondary></indexterm>
+<indexterm><primary>UNIT</primary><secondary>UNIT</secondary></indexterm>
+<para><computeroutput>UNIT::UNIT (char * name, char * id, unsigned int crh)</computeroutput></para><para>
+Definition at line <link linkend="__u_n_i_t_8cpp_source_1l00020">20</link> of file <link linkend="__u_n_i_t_8cpp_source">UNIT.cpp</link>.</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_u_n_i_t_1af7d094fb0ec415c8561933e4137fe29b"/><section>
+    <title>GetCredits()</title>
+<indexterm><primary>GetCredits</primary><secondary>UNIT</secondary></indexterm>
+<indexterm><primary>UNIT</primary><secondary>GetCredits</secondary></indexterm>
+<para><computeroutput>unsigned UNIT::GetCredits ( ) const<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__u_n_i_t_8h_source_1l00042">42</link> of file <link linkend="__u_n_i_t_8h_source">UNIT.h</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_n_i_t_af7d094fb0ec415c8561933e4137fe29b_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_class_u_n_i_t_1a3a62357ef4380e0740f60d447d3b2d16"/><section>
+    <title>SetCredits()</title>
+<indexterm><primary>SetCredits</primary><secondary>UNIT</secondary></indexterm>
+<indexterm><primary>UNIT</primary><secondary>SetCredits</secondary></indexterm>
+<para><computeroutput>void UNIT::SetCredits (const unsigned val)<computeroutput>[inline]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__u_n_i_t_8h_source_1l00048">48</link> of file <link linkend="__u_n_i_t_8h_source">UNIT.h</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_u_n_i_t_a3a62357ef4380e0740f60d447d3b2d16_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Friends And Related Function Documentation</title>
+<anchor xml:id="_class_u_n_i_t_1aa841f19717e76e9f5c64c5058a92a308"/><section>
+    <title>operator&lt;&lt;</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>UNIT</secondary></indexterm>
+<indexterm><primary>UNIT</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; out, const <link linkend="_class_u_n_i_t">UNIT</link> &amp; U)<computeroutput>[friend]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__u_n_i_t_8cpp_source_1l00031">31</link> of file <link linkend="__u_n_i_t_8cpp_source">UNIT.cpp</link>.</para>
+</section>
+<anchor xml:id="_class_u_n_i_t_1a72e308c8d6fb1de90073f10f3ac06a8f"/><section>
+    <title>operator&gt;&gt;</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>UNIT</secondary></indexterm>
+<indexterm><primary>UNIT</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; in, <link linkend="_class_u_n_i_t">UNIT</link> &amp; U)<computeroutput>[friend]</computeroutput></computeroutput></para><para>
+Definition at line <link linkend="__u_n_i_t_8cpp_source_1l00041">41</link> of file <link linkend="__u_n_i_t_8cpp_source">UNIT.cpp</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following files:</para>
+<link linkend="__u_n_i_t_8h">UNIT.h</link><link linkend="__u_n_i_t_8cpp">UNIT.cpp</link></section>
+</section>

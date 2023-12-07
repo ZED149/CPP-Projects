@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__d_a_t_e_8cpp" xml:lang="en-US">
+<title>DATE.cpp File Reference</title>
+<indexterm><primary>DATE.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;DATE.h&quot;<?linebreak?>#include &lt;iostream&gt;<?linebreak?>#include &lt;string&gt;<?linebreak?></programlisting>Include dependency graph for DATE.cpp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_d_a_t_e_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>ostream &amp; <link linkend="__d_a_t_e_8cpp_1a21480bdd8dfe19ece32a51378ffd4b82">operator&lt;&lt;</link> (ostream &amp;out, const <link linkend="_class_date">Date</link> &amp;d)</para>
+</listitem>
+            <listitem><para>istream &amp; <link linkend="__d_a_t_e_8cpp_1a5984a622162ebb81eb67c357594c28cd">operator&gt;&gt;</link> (istream &amp;in, <link linkend="_class_date">Date</link> &amp;d)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__d_a_t_e_8cpp_1a21480bdd8dfe19ece32a51378ffd4b82"/><section>
+    <title>operator&lt;&lt;()</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>DATE.cpp</secondary></indexterm>
+<indexterm><primary>DATE.cpp</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; out, const <link linkend="_class_date">Date</link> &amp; d)</computeroutput></para><para>
+Definition at line <link linkend="__d_a_t_e_8cpp_source_1l00021">21</link> of file <link linkend="__d_a_t_e_8cpp_source">DATE.cpp</link>.</para>
+</section>
+<anchor xml:id="__d_a_t_e_8cpp_1a5984a622162ebb81eb67c357594c28cd"/><section>
+    <title>operator&gt;&gt;()</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>DATE.cpp</secondary></indexterm>
+<indexterm><primary>DATE.cpp</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; in, <link linkend="_class_date">Date</link> &amp; d)</computeroutput></para><para>
+Definition at line <link linkend="__d_a_t_e_8cpp_source_1l00028">28</link> of file <link linkend="__d_a_t_e_8cpp_source">DATE.cpp</link>.</para>
+</section>
+</section>
+</section>

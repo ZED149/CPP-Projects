@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__r_e_s_u_l_t_8cpp" xml:lang="en-US">
+<title>RESULT.cpp File Reference</title>
+<indexterm><primary>RESULT.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &quot;RESULT.h&quot;<?linebreak?>#include &lt;iostream&gt;<?linebreak?></programlisting>Include dependency graph for RESULT.cpp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_r_e_s_u_l_t_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>ostream &amp; <link linkend="__r_e_s_u_l_t_8cpp_1a369d13b777b8cac9d90afb19ff2157e2">operator&lt;&lt;</link> (ostream &amp;out, const <link linkend="_class_result">Result</link> &amp;r)</para>
+</listitem>
+            <listitem><para>istream &amp; <link linkend="__r_e_s_u_l_t_8cpp_1ae4611b45b098a2223731858cc8c46f73">operator&gt;&gt;</link> (istream &amp;in, <link linkend="_class_result">Result</link> &amp;r)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__r_e_s_u_l_t_8cpp_1a369d13b777b8cac9d90afb19ff2157e2"/><section>
+    <title>operator&lt;&lt;()</title>
+<indexterm><primary>operator&lt;&lt;</primary><secondary>RESULT.cpp</secondary></indexterm>
+<indexterm><primary>RESULT.cpp</primary><secondary>operator&lt;&lt;</secondary></indexterm>
+<para><computeroutput>ostream &amp; operator&lt;&lt; (ostream &amp; out, const <link linkend="_class_result">Result</link> &amp; r)</computeroutput></para><para>
+Definition at line <link linkend="__r_e_s_u_l_t_8cpp_source_1l00028">28</link> of file <link linkend="__r_e_s_u_l_t_8cpp_source">RESULT.cpp</link>.</para>
+</section>
+<anchor xml:id="__r_e_s_u_l_t_8cpp_1ae4611b45b098a2223731858cc8c46f73"/><section>
+    <title>operator&gt;&gt;()</title>
+<indexterm><primary>operator&gt;&gt;</primary><secondary>RESULT.cpp</secondary></indexterm>
+<indexterm><primary>RESULT.cpp</primary><secondary>operator&gt;&gt;</secondary></indexterm>
+<para><computeroutput>istream &amp; operator&gt;&gt; (istream &amp; in, <link linkend="_class_result">Result</link> &amp; r)</computeroutput></para><para>
+Definition at line <link linkend="__r_e_s_u_l_t_8cpp_source_1l00036">36</link> of file <link linkend="__r_e_s_u_l_t_8cpp_source">RESULT.cpp</link>.</para>
+</section>
+</section>
+</section>

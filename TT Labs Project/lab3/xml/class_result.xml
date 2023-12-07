@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_result" kind="class" language="C++" prot="public">
+    <compoundname>Result</compoundname>
+    <includes refid="_r_e_s_u_l_t_8h" local="no">RESULT.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_result_1a01323e55653bb772d44b4e99d66968fd" prot="private" static="no" mutable="no">
+        <type><ref refid="class_u_n_i_t" kindref="compound">UNIT</ref></type>
+        <definition>UNIT Result::u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <qualifiedname>Result::u</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RESULT.h" line="14" column="6" bodyfile="RESULT.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_result_1acb800c07d848394229f28f5917a6f638" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned Result::mark</definition>
+        <argsstring></argsstring>
+        <name>mark</name>
+        <qualifiedname>Result::mark</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RESULT.h" line="15" column="10" bodyfile="RESULT.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_result_1a369d13b777b8cac9d90afb19ff2157e2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;out, const Result &amp;r)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>Result::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_result" kindref="compound">Result</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RESULT.h" line="19" column="8" bodyfile="RESULT.cpp" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_result_1ae4611b45b098a2223731858cc8c46f73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>istream &amp;</type>
+        <definition>istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;in, Result &amp;r)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>Result::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type><ref refid="class_result" kindref="compound">Result</ref> &amp;</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RESULT.h" line="22" column="16" bodyfile="RESULT.cpp" bodystart="36" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_result_1a90f44667e23d25ccdeac37f00a74657b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Result::Result</definition>
+        <argsstring>()</argsstring>
+        <name>Result</name>
+        <qualifiedname>Result::Result</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RESULT.h" line="26" column="1" bodyfile="RESULT.cpp" bodystart="11" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_result_1aca6abd5a46e07aab73990a5b78ed0901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Result::Result</definition>
+        <argsstring>(unsigned mark, UNIT u)</argsstring>
+        <name>Result</name>
+        <qualifiedname>Result::Result</qualifiedname>
+        <param>
+          <type>unsigned</type>
+          <declname>mark</declname>
+        </param>
+        <param>
+          <type><ref refid="class_u_n_i_t" kindref="compound">UNIT</ref></type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RESULT.h" line="29" column="1" bodyfile="RESULT.cpp" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_result_1ab4772c61e1094931099000f5792aeaa6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned Result::GetCredits</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCredits</name>
+        <qualifiedname>Result::GetCredits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RESULT.h" line="33" column="17" bodyfile="RESULT.h" bodystart="33" bodyend="36"/>
+        <references refid="class_u_n_i_t_1af7d094fb0ec415c8561933e4137fe29b" compoundref="_u_n_i_t_8h" startline="43" endline="46">UNIT::GetCredits</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="RESULT.h" line="11" column="1" bodyfile="RESULT.h" bodystart="12" bodyend="37"/>
+    <listofallmembers>
+      <member refid="class_result_1ab4772c61e1094931099000f5792aeaa6" prot="public" virt="non-virtual"><scope>Result</scope><name>GetCredits</name></member>
+      <member refid="class_result_1acb800c07d848394229f28f5917a6f638" prot="private" virt="non-virtual"><scope>Result</scope><name>mark</name></member>
+      <member refid="class_result_1a369d13b777b8cac9d90afb19ff2157e2" prot="private" virt="non-virtual"><scope>Result</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_result_1ae4611b45b098a2223731858cc8c46f73" prot="private" virt="non-virtual"><scope>Result</scope><name>operator&gt;&gt;</name></member>
+      <member refid="class_result_1a90f44667e23d25ccdeac37f00a74657b" prot="public" virt="non-virtual"><scope>Result</scope><name>Result</name></member>
+      <member refid="class_result_1aca6abd5a46e07aab73990a5b78ed0901" prot="public" virt="non-virtual"><scope>Result</scope><name>Result</name></member>
+      <member refid="class_result_1a01323e55653bb772d44b4e99d66968fd" prot="private" virt="non-virtual"><scope>Result</scope><name>u</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

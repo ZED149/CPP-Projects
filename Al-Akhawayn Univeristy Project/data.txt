@@ -1,0 +1,4 @@
+my name is salman ahmad
+i am working
+this is a text file
+ok the code is working fine

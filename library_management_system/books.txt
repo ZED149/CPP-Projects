@@ -1,0 +1,11 @@
+Book Name	Book Number	Book Department	Book Availability	Issued Details
+DigitalLogicDesign	155	Electrical	Available	l182119
+ElectricalCircuitDesign	156	Electrical	-	l182134
+SignalsandSystems	158	Electrical	Available	-
+C++programming	162	ComputerScience	Available	-
+QuantaumPhysics	1234	ComputerScience	-	-
+Probability&Statictics	342	BBA	Available	-
+Accounting&Finance	23678	BBA	Available	l147878
+DifferentialEquations	0909	ComputerScience	-	l203267
+NMAP	3152	CyberSecurity	Available	Not-Issued
+dasd	2	12321dasd	-	Not-Issued

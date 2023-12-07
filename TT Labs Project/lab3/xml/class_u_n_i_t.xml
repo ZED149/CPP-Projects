@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.6" xml:lang="en-US">
+  <compounddef id="class_u_n_i_t" kind="class" language="C++" prot="public">
+    <compoundname>UNIT</compoundname>
+    <includes refid="_u_n_i_t_8h" local="no">UNIT.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_u_n_i_t_1a0932e0b211ba0d7c902d3c4692ed2964" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char UNIT::name[Max_Name_Size]</definition>
+        <argsstring>[Max_Name_Size]</argsstring>
+        <name>name</name>
+        <qualifiedname>UNIT::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="19" column="6" bodyfile="UNIT.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_n_i_t_1a72a64187448634a361ea1b06e8d29536" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char UNIT::id[Max_Id_Size]</definition>
+        <argsstring>[Max_Id_Size]</argsstring>
+        <name>id</name>
+        <qualifiedname>UNIT::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="20" column="6" bodyfile="UNIT.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_u_n_i_t_1a4768afe84481b8d15e43a288b11fb678" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int UNIT::crh</definition>
+        <argsstring></argsstring>
+        <name>crh</name>
+        <qualifiedname>UNIT::crh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="21" column="14" bodyfile="UNIT.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_u_n_i_t_1aa841f19717e76e9f5c64c5058a92a308" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ostream &amp;</type>
+        <definition>ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(ostream &amp;out, const UNIT &amp;U)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>UNIT::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_u_n_i_t" kindref="compound">UNIT</ref> &amp;</type>
+          <declname>U</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="26" column="8" bodyfile="UNIT.cpp" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_u_n_i_t_1a72e308c8d6fb1de90073f10f3ac06a8f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>istream &amp;</type>
+        <definition>istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(istream &amp;in, UNIT &amp;U)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>UNIT::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type><ref refid="class_u_n_i_t" kindref="compound">UNIT</ref> &amp;</type>
+          <declname>U</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="28" column="16" bodyfile="UNIT.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UNIT::UNIT</definition>
+        <argsstring>()</argsstring>
+        <name>UNIT</name>
+        <qualifiedname>UNIT::UNIT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="36" column="1" bodyfile="UNIT.cpp" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_n_i_t_1a442cf35ec8968dfc18c8b7a64a399b85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UNIT::UNIT</definition>
+        <argsstring>(char *name, char *id, unsigned int crh)</argsstring>
+        <name>UNIT</name>
+        <qualifiedname>UNIT::UNIT</qualifiedname>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>crh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="39" column="1" bodyfile="UNIT.cpp" bodystart="20" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_u_n_i_t_1af7d094fb0ec415c8561933e4137fe29b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned UNIT::GetCredits</definition>
+        <argsstring>() const</argsstring>
+        <name>GetCredits</name>
+        <qualifiedname>UNIT::GetCredits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="43" column="17" bodyfile="UNIT.h" bodystart="43" bodyend="46"/>
+        <referencedby refid="class_result_1ab4772c61e1094931099000f5792aeaa6" compoundref="_r_e_s_u_l_t_8h" startline="33" endline="36">Result::GetCredits</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_u_n_i_t_1a3a62357ef4380e0740f60d447d3b2d16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UNIT::SetCredits</definition>
+        <argsstring>(const unsigned val)</argsstring>
+        <name>SetCredits</name>
+        <qualifiedname>UNIT::SetCredits</qualifiedname>
+        <param>
+          <type>const unsigned</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="UNIT.h" line="49" column="6" bodyfile="UNIT.h" bodystart="49" bodyend="52"/>
+        <referencedby refid="_m_a_i_n_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" compoundref="_m_a_i_n_8cpp" startline="20" endline="51">main</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="UNIT.h" line="16" column="1" bodyfile="UNIT.h" bodystart="17" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_u_n_i_t_1a4768afe84481b8d15e43a288b11fb678" prot="private" virt="non-virtual"><scope>UNIT</scope><name>crh</name></member>
+      <member refid="class_u_n_i_t_1af7d094fb0ec415c8561933e4137fe29b" prot="public" virt="non-virtual"><scope>UNIT</scope><name>GetCredits</name></member>
+      <member refid="class_u_n_i_t_1a72a64187448634a361ea1b06e8d29536" prot="private" virt="non-virtual"><scope>UNIT</scope><name>id</name></member>
+      <member refid="class_u_n_i_t_1a0932e0b211ba0d7c902d3c4692ed2964" prot="private" virt="non-virtual"><scope>UNIT</scope><name>name</name></member>
+      <member refid="class_u_n_i_t_1aa841f19717e76e9f5c64c5058a92a308" prot="private" virt="non-virtual"><scope>UNIT</scope><name>operator&lt;&lt;</name></member>
+      <member refid="class_u_n_i_t_1a72e308c8d6fb1de90073f10f3ac06a8f" prot="private" virt="non-virtual"><scope>UNIT</scope><name>operator&gt;&gt;</name></member>
+      <member refid="class_u_n_i_t_1a3a62357ef4380e0740f60d447d3b2d16" prot="public" virt="non-virtual"><scope>UNIT</scope><name>SetCredits</name></member>
+      <member refid="class_u_n_i_t_1accda565a30e7ca213e8121439bd233ff" prot="public" virt="non-virtual"><scope>UNIT</scope><name>UNIT</name></member>
+      <member refid="class_u_n_i_t_1a442cf35ec8968dfc18c8b7a64a399b85" prot="public" virt="non-virtual"><scope>UNIT</scope><name>UNIT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

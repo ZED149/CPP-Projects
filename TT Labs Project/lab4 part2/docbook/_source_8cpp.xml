@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__source_8cpp" xml:lang="en-US">
+<title>Source.cpp File Reference</title>
+<indexterm><primary>Source.cpp</primary></indexterm>
+<programlisting linenumbering="unnumbered">#include &lt;iostream&gt;<?linebreak?>#include &lt;fstream&gt;<?linebreak?>#include &lt;string&gt;<?linebreak?></programlisting>Include dependency graph for Source.cpp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_source_8cpp__incl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>double <link linkend="__source_8cpp_1a4203819784dff2591dbcb83a700e9e3d">standardDeviation</link> (unsigned count, float mean, float *&amp;dataArray)</para>
+</listitem>
+            <listitem><para>int <link linkend="__source_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="__source_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>Source.cpp</secondary></indexterm>
+<indexterm><primary>Source.cpp</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>int main ( )</computeroutput></para><para>
+Definition at line <link linkend="__source_8cpp_source_1l00014">14</link> of file <link linkend="__source_8cpp_source">Source.cpp</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_source_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="__source_8cpp_1a4203819784dff2591dbcb83a700e9e3d"/><section>
+    <title>standardDeviation()</title>
+<indexterm><primary>standardDeviation</primary><secondary>Source.cpp</secondary></indexterm>
+<indexterm><primary>Source.cpp</primary><secondary>standardDeviation</secondary></indexterm>
+<para><computeroutput>double standardDeviation (unsigned count, float mean, float *&amp; dataArray)</computeroutput></para><para>
+Definition at line <link linkend="__source_8cpp_source_1l00062">62</link> of file <link linkend="__source_8cpp_source">Source.cpp</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="_source_8cpp_a4203819784dff2591dbcb83a700e9e3d_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+</section>

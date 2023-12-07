@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__r_e_g_i_s_t_8h_source" xml:lang="en-US">
+<title>REGIST.h</title>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__r_e_g_i_s_t_8h_source_1l00001"/>00001 <emphasis role="comment">//&#32;REGIST.H&#32;-&#32;Registration&#32;class&#32;definition</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00002"/>00002 <emphasis role="comment">//&#32;author&#32;KRI</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00003"/>00003 <emphasis role="comment">//&#32;modified&#32;smr</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00004"/>00004 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00005"/>00005 <emphasis role="preprocessor">#ifndef&#32;REGIST_H</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00006"/>00006 <emphasis role="preprocessor">#define&#32;REGIST_H</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00007"/>00007 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00008"/>00008 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00009"/>00009 <emphasis role="preprocessor">#include&#32;&lt;iostream&gt;</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00010"/>00010 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="__c_o_u_r_s_e_8h">course.h</link>&quot;</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00011"/>00011 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="__u_n_i_t_8h">UNIT.h</link>&quot;</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00012"/>00012 <emphasis role="preprocessor">#include&#32;&quot;<link linkend="__r_e_s_u_l_t_8h">RESULT.h</link>&quot;</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00013"/>00013 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00014"/>00014 <emphasis role="keyword">using&#32;namespace&#32;</emphasis>std;
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00015"/>00015 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00016"/><link linkend="__r_e_g_i_s_t_8h_1acaceade9084d64028f3558082708ebae">00016</link> <emphasis role="keyword">const</emphasis>&#32;<emphasis role="keywordtype">unsigned</emphasis>&#32;<link linkend="__r_e_g_i_s_t_8h_1acaceade9084d64028f3558082708ebae">MaxResults</link>&#32;=&#32;10;
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00017"/>00017 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00018"/><link linkend="_class_registration">00018</link> <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_registration">Registration</link>&#32;{
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00019"/>00019 <emphasis role="keyword">public</emphasis>:
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00020"/>00020 &#32;&#32;&#32;&#32;<link linkend="_class_registration_1aac811faf22fe96a7f657a282d6d679ab">Registration</link>();
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00021"/>00021 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00022"/>00022 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">unsigned</emphasis>&#32;<link linkend="_class_registration_1a72a5cc800d9551d69e4c201cd9f07ccd">GetCredits</link>()&#32;<emphasis role="keyword">const</emphasis>;
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00023"/>00023 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">unsigned</emphasis>&#32;<link linkend="_class_registration_1a729a2d6ae08aefd2dbe10ec7b3e5ce48">GetCount</link>()&#32;<emphasis role="keyword">const</emphasis>;
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00024"/>00024 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00025"/>00025 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00026"/>00026 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;These&#32;operators&#32;have&#32;been&#32;made&#32;friends.&#32;They&#32;have</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00027"/>00027 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;privileged&#32;access&#32;to&#32;class&#32;internals.</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00028"/>00028 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;Very&#32;useful&#32;for&#32;debugging&#32;the&#32;class,&#32;but&#32;not&#32;very&#32;good&#32;for&#32;class&#32;design.</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00029"/>00029 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;We&#32;will&#32;keep&#32;using&#32;it&#32;for&#32;now&#32;but&#32;you&#32;will&#32;have&#32;a&#32;chance&#32;in&#32;a&#32;later&#32;lab</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00030"/>00030 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;to&#32;redesign&#32;this&#32;class.</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00031"/>00031 &#32;&#32;&#32;&#32;<emphasis role="keyword">friend</emphasis>&#32;ostream&amp;&#32;<link linkend="_class_registration_1a0fd17e4423f843b3a2d6d265ef12419e">operator &lt;&lt;</link>(ostream&amp;&#32;os,&#32;<emphasis role="keyword">const</emphasis>&#32;<link linkend="_class_registration">Registration</link>&amp;&#32;R);
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00032"/>00032 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00033"/>00033 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00034"/>00034 &#32;&#32;&#32;&#32;<emphasis role="keyword">friend</emphasis>&#32;istream&amp;&#32;<link linkend="_class_registration_1ac6e479de58958d2b0a2295ceb04926da">operator &gt;&gt;</link>(istream&amp;&#32;input,&#32;<link linkend="_class_registration">Registration</link>&amp;&#32;R);
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00035"/>00035 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00036"/>00036 <emphasis role="keyword">private</emphasis>:
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00037"/>00037 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">long</emphasis>&#32;studentId;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;student&#32;ID&#32;number</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00038"/>00038 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">unsigned</emphasis>&#32;semester;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;semester&#32;year,&#32;number</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00039"/>00039 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">unsigned</emphasis>&#32;count;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;number&#32;of&#32;courses</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00040"/>00040 &#32;&#32;&#32;&#32;<link linkend="_class_result">Result</link>&#32;r[<link linkend="__r_e_g_i_s_t_8h_1acaceade9084d64028f3558082708ebae">MaxResults</link>];&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;array&#32;of&#32;results</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00041"/>00041 };
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00042"/>00042 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00043"/><link linkend="_class_registration_1a729a2d6ae08aefd2dbe10ec7b3e5ce48">00043</link> <emphasis role="keyword">inline</emphasis>&#32;<emphasis role="keywordtype">unsigned</emphasis>&#32;<link linkend="_class_registration_1a729a2d6ae08aefd2dbe10ec7b3e5ce48">Registration::GetCount</link>()<emphasis role="keyword">&#32;const</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00044"/>00044 <emphasis role="keyword"></emphasis>{
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00045"/>00045 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;count;
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00046"/>00046 }
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00047"/>00047 
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00048"/>00048 <emphasis role="preprocessor">#endif</emphasis>
+<anchor xml:id="__r_e_g_i_s_t_8h_source_1l00049"/>00049 
+</programlisting></section>

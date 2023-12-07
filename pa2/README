@@ -1,0 +1,18 @@
+
+
+
+This program implments a Graph ADT in C language. It reads data from an input file and perform some operations on it.
+
+File included are:
+
+1. List.c
+2. List.h
+3. Graph.c
+4. Graph.h
+5. GraphTest.c
+6. ListTest.c
+7. FindPath.c
+8. makefile
+9. README
+
+Client program is FindPath.c which takes input from a file, then constructs a graph of 'n' number of nodes. After that, it outputs to the given file the Graph and start reading again. At last, it performs BFS on given pair of Graph(V, E) and finds shortest distance of the given inputs one by one followed by printing it to the Output file. 
